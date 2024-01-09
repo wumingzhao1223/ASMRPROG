@@ -21,7 +21,7 @@ body {
 }
 
 .navbar h2 {
-  color: rgb(255, 255, 0);
+  color: rgb(255, 174, 43);
   font-weight: 600;
 }
 
@@ -47,4 +47,56 @@ body {
 
 .navbar ul li:last-child a {
   margin: 0;
+}
+
+.contact-btn {
+  background: rgb(255, 174, 43);
+  padding: 6px 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: rgb(251, 96, 18);
+}
+
+.main {
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h4 {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.main h4 span {
+  color: rgb(255, 174, 43);
+  text-decoration: underline;
+}
+
+.main p.title {
+  font-size: 44px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-top: 8px;
+}
+
+.main p.subtitle {
+  font-size: 16px;
+  color: rgb(200, 200, 200);
+  margin-top: 20px;
+}
+
+.main img {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
 }
